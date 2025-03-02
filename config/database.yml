@@ -8,3 +8,7 @@ development:
 
 production:
   <<: *default
+  host: dpg-cv1sb45svqrc738qb3ug-a
+  database: s_original_1kcl
+  username: s_original_1kcl_user
+  password: bm1Flc9TVmGMltp7FuYf6WVasLW0lk7d
