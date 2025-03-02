@@ -1,0 +1,206 @@
+body {
+  font-family: "m-plus-2p", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.15em;
+}
+
+.header {
+  background-color: #85C9A8;
+  padding: 50px 0;
+}
+
+.header-ud {
+  padding: 43px 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.white-text {
+  color: white;
+  font-size: 24px;
+}
+
+.green-text {
+  color: #57AA82;
+  font-size: 24px;
+}
+
+.pos-fixed {
+  position: fixed;
+}
+
+/* index.erb */
+
+.list {
+  padding-top: 24px;
+  text-align: center;
+  z-index: 1;
+}
+
+.item {
+  background-color: #85C9A8;
+  width: 1216px;
+  margin: 18px auto;
+  padding: 42px 0px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px -5px #777777;
+}
+
+.text-box {
+  display: flex;
+  margin: auto 202px;
+  justify-content: space-between;
+}
+
+.material-icons {
+  background-color: #85C9A8;
+  border-radius: 50%;
+  width: 90px; 
+  height: 90px; 
+  color: white;
+  font-size: 60px;
+  bottom: 85px;
+  right: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+/* new.erb */
+
+.form {
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+}
+
+.input-form {
+  padding: 0 49px 11px 0;
+  margin: 73px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 2px #C1C1C1;
+}
+
+.input-form input {
+  flex-grow: 1;
+  text-align: left;
+  height: 30px;
+  padding: 8px;
+  font-size: 24px;
+  letter-spacing: 0.15em;
+}
+
+.input-form input::placeholder {
+  color: #C1C1C1;
+  font-size: 24px;
+}
+
+.input-form .unit {
+  padding-right: 0;
+  font-size: 16px;
+}
+
+.input-form-ud {
+  margin: 63px;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px #FFFFFF;
+}
+
+.input-form-ud input {
+  color:#FFFFFF;
+  text-align: left;
+  flex-grow: 1;
+  height: 30px;
+  padding: 8px;
+  letter-spacing: 0.15em;
+}
+
+.name-input {
+  margin: 8px 0;
+  font-size: 36px;
+}
+
+.stock-input {
+  margin: 6px 0;
+  font-size: 24px;
+}
+
+.input-form-ud input::placeholder {
+  color: #C1C1C1;
+  font-size: 24px;
+}
+
+.input-form-ud .unit {
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.sub-button {
+  background-color: #85C9A8;
+  border-radius: 10px;
+  padding: 20px 40px;
+  font-size: 20px;
+  letter-spacing: 0.15em;
+  color: white;
+  bottom: 70px;
+  right: 120px;
+}
+
+.form-button {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 22px 69px;
+  margin: 0 21px;
+  font-size: 20px;
+  letter-spacing: 0.15em;
+  color: #85C9A8;
+  bottom: 70px;
+  right: 120px;
+  box-shadow: 2px 2px 10px -5px #777777;
+}
+.formbox {
+  display: flex;
+}
+
+.formbox button {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 22px 69px;
+  margin: 0 21px;
+  font-size: 20px;
+  letter-spacing: 0.15em;
+  color: #85C9A8;
+  bottom: 70px;
+  right: 120px;
+  box-shadow: 2px 2px 10px -5px #777777;
+}
+
+/*.button-group */
+.create-band{
+  display: flex;
+  bottom: 52px;
+  right: 43px;
+}
+
+.create-band h1{
+  color: #85C9A8;
+}
+
+.item-form {
+  background-color: #85C9A8;
+  height: 650px;
+  border-radius: 30px;
+  position: fixed;
+  bottom: 18px;
+  left: 20px;
+  right: 20px;
+}
+

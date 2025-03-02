@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>タイトル</title>
+  </head>
+  <body>
+    <form action="/<%= @band.uid %>/music/new" method="post">
+      <input type="date" name="date" placeholder="ライブの日付"><br>
+      <input type="text" name="music_name" placeholder="曲名"><br>
+      <input type="text" name="artist" placeholder="アーティスト名"><br>
+      <input type="text" name="lyrics" placeholder="歌詞"><br>
+      <input type="text" name="norikata" placeholder="ノリ方"></textarea><br>
+      <input type="text" name="music_url" placeholder="曲のurl"><br>
+      <button type="submit">追加</button>
+		</form>
+  </body>
+</html>

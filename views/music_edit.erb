@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>タイトル</title>
+  </head>
+  <body>
+    <form action="/<%= @band.uid %>/setlist/<%= @setlist.id%>/edit/<%= @music.id%>/post" method="post">
+      <input type="date" name="date" value="<%= @setlist.date%>"><br>
+      <input type="text" name="music_name" value="<%= @music.name%>"><br>
+      <input type="text" name="artist" value="<%= @music.artist%>"><br>
+      <input type="text" name="lyrics" value="<%= @music.lyrics%>"><br>
+      <input type="text" name="norikata" value="<%= @music.norikata%>"><br>
+      <input type="text" name="url" value="<%= @music.url%>"><br>
+      <button type="submit">編集</button>
+		</form>
+  </body>
+</html>

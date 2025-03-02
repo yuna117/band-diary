@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+         <meta charset="UTF-8">
+         <title></title>
+    </head>
+    <body>
+    	<h2><%= @band.name%></h2>
+    	<img src="<%= @band.img_url %>" width="100">
+        <form action="/<%= @band.uid %>/edit" method="post">
+            <!--<input type="text" name="band_name" default="<%= @band.name%>">-->
+            <!--<button type="submit">変更</button>-->
+		</form>
+        <h3>set list</h3>
+        <form action="/<%= @band.uid %>/music/new" method="get">
+            <button type="submit">+</button>
+		</form>
+		
+		<% @setlists.each do |setlist| %>
+		<p>
+		<a href="/<%= @band.uid%>/setlist/<%= setlist.id%>">
+		<%= setlist.date %>
+		</a>
+		</p>
+		<% end %>
+    </body>
+</html>

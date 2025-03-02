@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>バンド記録サイト</title>
+    <link rel="icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="/css/style.css">
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css" />-->
+    <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+    <script src="/js/font.js"></script>
+  </head>
+  <body>
+    <div class="craete-band">
+      <h1>create band<h1>
+      <form action="/create_band" method="post" enctype="multipart/form-data">
+        <input type="text" name="band_name" placeholder="バンド名">
+        <input type="text" name="band_uid" placeholder="バンドuid">
+        <input type="file" name="file">
+        <!--<input type="submit" value="追加" class="form-button">-->
+        <button type="submit" class="form-button">追加</button>
+      </form>
+		</div>
+  </body>
+</html>
